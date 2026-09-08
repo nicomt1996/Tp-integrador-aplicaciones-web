@@ -7,10 +7,21 @@
     <title>Iniciar sesíon- Vivero Raíz</title>
     <style>
         body {
-            background-color: #56ea67;
+            background-color: #83f290;
             font-family: sans-serif;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;   
+            align-items: center;      
+            text-align: center;       
+            padding: 20px;           
         }
     </style>
+    <link rel="stylesheet" href="plantilla.css">
 
 </head>
 
@@ -25,6 +36,7 @@
         <p>Ingrese sus datos para ingresar a la cuenta.
     </strong>
     <form>
+        
         <p>
             <label for="email">Correo electronico </label><br>
             <input type="email" id="email" placeholder="ejemplonicomt@correo.com"><br>
@@ -40,9 +52,10 @@
         <p>
             <button type="submit">Ingresar</button>
         </p>
-        <p style="background-color: #d9383a; color: white; padding: 10px; border-radius: 5px; display: inline-block;">
-            <strong>El correo o la contraseña no coinciden. Probá de nuevo.</strong>
-        </p>
+        <div class="advertencia">
+            El correo y/o contraseña son incorrectos. Intente nuevamente.
+        </div>
+        
         <p><a href="#">¿Olvidaste tu contraseña?</a></p>
         <p>¿No tenés cuenta? <a href="#">Registrate</a></p>
 
