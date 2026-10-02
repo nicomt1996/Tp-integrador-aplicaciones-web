@@ -1,0 +1,54 @@
+.advertencia {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+h2 {
+    color: rgb(2, 29, 20)
+}
+
+.contenedor-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Ficha-Plantas {
+    background-color: rgba(17, 137, 29, 0.712);
+    border: 2px solid;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+
+}
+header img {
+    width: 100%;               
+    height: auto;              
+    max-height: 250px;               
+}
+
+.Ficha-Plantas img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2e7d32;
+    padding: 15px 0;
+    gap: 40px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
