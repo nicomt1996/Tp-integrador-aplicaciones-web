@@ -18,10 +18,12 @@ h2 {
 
 .Ficha-Plantas {
     background-color: rgba(17, 137, 29, 0.712);
-    border: 2px solid;
+    border: 1px solid;
+    border-radius: 8px;
     padding: 15px;
     width: 250px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 
 }
 header {
@@ -38,15 +40,18 @@ header img {
     height: auto;
     display: block;
     margin: 15px auto 0 auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 .Caja-form {
     background-color: rgba(252, 252, 252, 0.747);
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     padding: 15px;
     width: 350px;
     text-align: center;
+    
     
 }
 .contenedor-form {
@@ -71,4 +76,93 @@ nav a {
     font-size: 16px;
     transition: color 0.3s;
 
+}
+
+.contenedor-textos {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(252, 252, 252, 0.9);
+    border: 1px solid #d3ded1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.contenedor-textos p {
+    line-height: 1.7;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contenedor-textos img {
+    display: block;
+    margin: 25px auto;        
+    max-width: 100%;          
+    height: auto;
+    border-radius: 12px;      
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.valores-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 25px 0;
+}
+.valor-item {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 7px solid rgb(137, 114, 68);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+.contenedor-equipo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+.tarjeta-miembro {
+    background-color: rgba(17, 137, 29, 0.1); 
+    border: 1px solid rgba(17, 137, 29, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+    flex: 1;
+    min-width: 250px;
+    max-width: 420px;
+    text-align: center;
+    font-style: italic;
+}
+.caja-cta {
+    background-color: rgb(39, 142, 108); 
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-vivero {
+    display: inline-block;
+    background-color: #4bba51;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+.btn-vivero:hover {
+    background-color: #3aa340;
+    transform: translateY(-2px); 
+}
+.footer-generico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
 }
