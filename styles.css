@@ -47,8 +47,9 @@ header img {
     padding: 15px;
     width: 350px;
     text-align: center;
+    
 }
-.contenedor-login {
+.contenedor-form {
     display: flex;
     justify-content: center;
     align-items: center;
